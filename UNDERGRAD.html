@@ -1,0 +1,932 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+
+	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="simple-line-icons.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="icon-font.css">
+    <link rel="stylesheet" href="educa.css">
+      <!-- <link rel="stylesheet" href="mycss.css"> -->
+    <link rel="stylesheet" href="settings.css">
+    <title>Apriori Educations</title>
+<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <style>
+        
+		
+      .welcome-intro-2 .service-item i {
+          color: #FFFFFF;
+          background-color: #1C1C84;
+      }
+      .section-heading span{
+          color: #EA8912;
+          text-transform: capitalize;
+      }
+      section.testimonials-page #owl-testimonials .item h4{
+      
+          color: #F5A425;
+      }
+      section.testimonials-page #owl-testimonials .item span{
+          color:#1C1C84;
+      }
+      footer .footer-widget h2{
+          color:#F5A425;
+          font-weight: bold;
+      }
+      
+      .welcome-to-educa .service-item h4{
+      color:#1C1C84;
+      font-weight:bold;
+      }
+      
+      .welcome-to-educa .service-item:hover h4{
+      color: #F5A425;
+      }
+      
+      .welcome-to-educa .section-heading span{
+      color: #F5A425;
+          font-weight: bold;
+      font-size: 18px;
+          text-transform: capitalize;
+      }
+      
+      .welcome-intro-2 .service-item {
+         min-height: 100px;
+      }
+      
+      .welcome-intro-2 .service-item p{
+      line-height: 17px !important;
+      }
+      .welcome_text_head{
+        color: #1C1C84;
+        font-family: 'Ubuntu';
+        font-weight: bold;
+        font-size: 13px;
+      }
+      .welcome_text_head:hover{
+        color:#F5A425; 
+        font-family: 'Ubuntu';
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 13px;
+      }
+      @media screen and (max-width: 1100px) {
+      
+  #welcome{
+    display: block !important;
+    
+  }
+}
+.courses-grid .course-item .down-content .price-red .base{	 display:none;	}		
+	.item.course-item p,.item.course-item .text-button{	  display:none;	}	
+	.courses-grid .course-item img{
+	 height:235px;
+	}
+	.courses-grid .course-item .down-content .price-yellow{
+	  display:none;
+	}
+	
+	.readmore-button{
+	text-align: center;
+    margin-top: 50px;
+	}
+	
+	.readmore-button a{
+	background-color: #f5a425;
+    padding: 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #222222;
+    letter-spacing: 2px;
+    display: inline-block;
+	}
+	
+	#sat-content,#ielts-content,#ap-content{
+	background-color:#F7F7F7;
+	}
+	
+	.test-prep-inner-content ul{
+	padding-left: 15px;
+	}
+	
+	.test-prep-inner-content ul li{
+	list-style: lower-roman;
+    margin-bottom: 10px;
+	}
+	
+	.test-prep-inner-content p{
+	color:#111;
+	margin-bottom: 20px;
+	}
+	
+	.test-heading{
+	text-align:center;
+	}
+	
+	.test-heading h3{
+	font-weight:bold;
+	}
+	
+	.test-prep-inner-content table th,.test-prep-inner-content table td{
+	padding: 25px 30px;
+    text-align: center;
+	font-weight: 600;
+	}
+	
+	.test-prep-inner-content h4{
+	text-decoration: underline;
+    font-weight: 600;
+	}
+	
+	.act-test-section-tbl td ul li{
+	text-align:left;
+	}
+	
+	.content-table-div{
+	width: 60%;
+    margin: 50px auto;
+	}
+	
+	.test-prep-inner-content table th {
+    background: #1c1c84;
+    color: #FFF;
+}
+
+.courses-grid .course-item .down-content h4{
+font-weight: bold;
+    color: #1C1C84;
+}
+@media screen and (max-width: 1000px){
+
+#roadmap{
+  display: flex;
+  flex-direction: column;
+}
+
+}
+    </style>
+
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <p style="height: 1px ; background-color: #777777; ; width: 100%; border-top: 5px solid #1c1c84;"> </p>                              
+    <div style="display: flex;flex-direction: row;flex-wrap: wrap; justify-content: space-evenly;">
+        <div>
+          <img src="Apriori Logo.jpeg" alt=""  style="width: 200px;margin-top: 30%; ">
+        </div>
+        <div>
+            <div id="topbar" style="display: flex;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: flex-end;">
+                <p style="margin-right:5px;font-family: 'Roboto', sans-serif; font-size: 13px;position:relative;top:4px;"><img src="telephone-fill.svg" alt="" height="12px;"style=" " >+91 9717189650/ 659</p>
+               <p style="height: 20px ; background-color: #777777; ; width: 1px; margin-left:3px ; margin-right: 3px;margin-top: 3px; font-size: 13px;"> </p>
+                <p style="margin-right:5px;font-family: 'Roboto', sans-serif;"><img src="envelope.svg" alt="" height="12px;">  info@aprioriconsultants.org</p>
+                <p style="background-color: #1c1c84; color: WHITE;padding: 17px;position: relative;bottom: 20px; font-size: 13px; cursor: pointer;" >APPLY NOW</p>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top: 20px;position: relative;bottom: 19px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-family: 'Roboto', sans-serif;">APIRORI EDUCATIONS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./index.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;;">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-size: 11px; font-family: 'Roboto', sans-serif;;">ABOUT US </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./Admissions.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;;">ADMISSIONS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 11px; font-family: 'Roboto', sans-serif;;">
+                  TEST PREP
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./UNDERGRAD.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;;">UNDER GRADUATE</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./POSTGRAD.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;;">POST GRADUATE</a></li>
+              
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./COURSES.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;;">COURSES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./CONTACTUS.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;;">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./TESTIMONIALS.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;;">TESTIMONIALS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-size: 11px; font-family: 'Roboto', sans-serif;;">BLOG</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="position: relative;top: 7px; border-radius: 17px;" > 
+              <button class="btn btn-outline-success" type="submit" style="position: relative;top: 7px;border-radius: 17px;">Search</button>
+            </form>
+          </div>
+        </div>
+            </nav>
+        </div>
+        
+    </div>
+
+    <div class="page-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Test Preparation Undergrad</h1>
+                
+                    <div class="page-list">
+                      
+                    </div>
+                </div>	
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- cards -->
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4" style="padding: 10%;">
+        <div class="col">
+          <div class="card">
+            <img src="test-prep-sat-img.png" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+              <h4 class="card-title" style="color:#1C1C84;font-family: 'Montserrat', sans-serif;">Test Preparation For Sat</h4>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="test-prep-act-sat-img.jpg" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+              <h5 class="card-title" style="color:#1C1C84;font-family: 'Montserrat', sans-serif;">Test Preparation For Act</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="test-prep-IELTS.jpg" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+              <h5 class="card-title" style="color:#1C1C84;font-family: 'Montserrat', sans-serif;">Test Preparation For IELTS</h5>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="Language Proficiency - IELTS TOEFL.png.jpeg" class="card-img-top" alt="..." height="200px">
+              <div class="card-body">
+                <h5 class="card-title" style="color:#1C1C84;font-family: 'Montserrat', sans-serif;">Test Preparation For TOEFL</h5>
+  
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="test-prep-ap-img.png" class="card-img-top" alt="..." height="200px">
+              <div class="card-body">
+                <h5 class="card-title" style="color:#1C1C84;font-family: 'Montserrat', sans-serif;">Test Preparation For AP</h5>
+  
+              </div>
+            </div>
+          </div>
+        <div class="col">
+          <div class="card">
+            <img src="test-prep-duolingo-test-img.png" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+              <h5 class="card-title" style="color:#1C1C84;font-family: 'Montserrat', sans-serif;">DUO LINGO ENGLISH TEST</h5>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+      <section id="sat-content">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <div class="test-prep-inner-content about-sat-content">
+            <div class="test-heading">
+            <h3>About SAT</h3>
+            <img src="assets/images/line-dec.png" alt="">
+            </div>
+            <h3>WHAT IS THE SAT TEST?</h3>
+<p>The SAT is a 3 hours test that measures</p>
+<ul>
+<li>Evidence-based Reading and Writing and</li>
+
+<li>Math reasoning skills. The score for Evidenced-based Reading and Math will be reported on an 800-point scale each making a total of 1600 points.</li>
+</ul>
+
+<p>The New SAT does not require direct use of vocabulary; instead, the words have to be understood so that they can be used in contextual settings.</p>
+
+<p>The New SAT has no negative markings. The multiple-choice options have been reduced from 5 to 4 choices. The scores are valid for 4 years.</p>
+
+<h3>GENERAL OVERVIEW</h3>
+<p>The test is administered five times a year (August, October, December, March & May) in India and can be attempted more than once. Different schools have different SAT score requirements. Better scores result in better chances of admissions from universities.</p>
+
+<p><b>*Students in India can now use SAT to apply to universities in</b></p>
+
+<p><b>India</b></p>
+
+<p><b>USA</b></p>
+
+<p><b>Several other countries.</b></p>
+
+<p>Registration for the SAT requires a valid original passport.</p>
+<p>The exam fee for New SAT is USD 104 (without an essay).</p>
+
+<p>Fee Reduction for low annual house income.<p>
+
+<p>Scholarship for low income to an alliance university.</p>
+
+
+
+<h3>THE CONTENT</h3>
+<h3>THE COMPULSORY SECTIONS</h3><br/>
+<h4><b>Evidence-Based Reading & Writing: (200-800 points)</b></h4>
+
+<p>The <b>Evidence-Based Reading</b> section is 65 minutes long with 52 questions, all of which are passage-based and multiple choice. All questions are evidence-based that requires the student to analyze and interpret the information given in the passages. Passages may be single or paired with informational graphics such as charts or tables. The passages will be drawn from the U.S and World Literature, History/Social Studies and Science.</p>
+
+<p>The <b>Writing and Language section</b> is 35 minutes long with 44 multiple choice questions based on several passages. Some passages are accompanied by informational graphics, such as tables, graphs and charts. It focuses on one’s ability to analyze and edit the content of the passage, which means one will have to correct grammar and make changes in the passage. It asks one to edit/rectify errors in sentences within the passage, identify sentences that correct the misinterpretation of a graphical data, select sentences that sharpen an argument or add relevant supporting detail.</p>
+
+<h4>Math: (200-800 points)</h4>
+
+<p>The Math section is broken down into a No Calculator and a Calculator Section which is 80 minutes long with 58 questions. Majority of questions are multiple-choice, but there will be some student-produced response questions which are known as <b>Grid-ins</b>; (instead of choosing from 4 answer choices the student will have to solve the problem and enter an answer by circling/shading the appropriate numbers).</p>
+
+<p>The Math test is divided into 4 main areas: (1) Heart of Algebra, (2) Problem Solving and Data Analysis, (3) Passport to Advanced Math, and (4) Additional topics in Math which include Geometry and Trigonometry.</p>
+<div class="content-table-div table-responsive">
+<table border="1">
+<tr>
+<th>Component</th>
+
+<th>Time Allotted (minutes)</th>
+
+<th>Number of Questions/Tasks</th>
+
+</tr>
+
+<tr>
+<td>Reading</td>
+
+<td>65</td>
+
+<td>52</td>
+</tr>
+
+<tr>
+<td>Writing and Language</td>
+
+<td>35</td>
+
+<td>44</td>
+</tr>
+
+<tr>
+
+<td>Math</td>
+
+<td>80</td>
+
+<td>58</td>
+
+</tr>
+
+<tr>
+<td>Total</td>
+
+<td>180</td>
+
+<td>154</td>
+</tr>
+</table>
+
+</div>
+
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        
+        <section id="act-content">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <div class="test-prep-inner-content about-act-content">
+            
+            <div class="test-heading">
+            <h3>About ACT</h3>
+            <img src="assets/images/line-dec.png" alt="">
+            </div>
+                <h3>ACT Test Format</h3>
+
+<p>Many colleges require scores from the ACT or SAT tests as a part of the admissions process.  Your ACT score is a key component of your college applications.</p>
+
+<h3>About the ACT</h3>
+<p>The ACT is an entrance exam used by most colleges and universities to make admissions decisions. It is a multiple-choice, pencil-and-paper test administered by ACT, Inc.</p>
+
+<p>The purpose of the ACT test is to measure a high school student's readiness for college, and provide colleges with one common data point that can be used to compare all applicants. College admissions officers will review standardized test scores alongside your high school GPA, the classes you took in high school, letters of recommendation from teachers or mentors, extracurricular activities, admissions interviews, and personal essays. How important ACT scores are in the college application process varies from school to school.</p>
+
+<p>Overall, the higher you score on the ACT and/or SAT, the more options for attending and paying for college will be available to you.</p>
+
+<h3>What is on the ACT?</h3>
+
+<p>There are four ACT sections:</p>
+
+<ul>
+<li>English</li>
+<li>Reading</li>
+<li>Math</li>
+<li>Science</li>
+</ul>
+<p>The ACT also includes an optional 40-minute Writing Test. Some colleges may require that you complete the ACT Writing Test.</p>
+
+
+
+<div class="content-table-div table-responsive">
+<table border="1" class="act-test-section-tbl">
+<tr>
+<th colspan="2">OVERVIEW OF ACT TEST SECTIONS</th>
+</tr>
+
+<tr>
+<td>English</td>
+<td>
+<ul>
+<li>75 multiple–choice questions</li>
+<li>45 minutes</li>
+<li>Tests grammar, punctuation, sentence structure and rhetorical skills</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>Math</td>
+<td>
+<ul>
+<li>60 multiple–choice questions</li>
+<li>60 minutes</li>
+<li>Algebra I and II, geometry, and some trigonometry</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>Reading</td>
+<td>
+<ul>
+<li>40 multiple–choice questions</li>
+<li>35 minutes</li>
+<li>Four passages (prose fiction, social studies, humanities, and natural sciences) with 10 questions per passage</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>Science</td>
+<td>
+<ul>
+<li>40 multiple–choice questions</li>
+<li>35 minutes</li>
+<li>Questions on science-based passages presented with graphs, charts, tables and research summaries</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>Writing</td>
+<td>
+<ul>
+<li>Writing test is optional *</li>
+<li>1 essay</li>
+<li>40 minutes</li>
+</ul>
+<p>* We recommend taking the ACT Writing Test because some schools require it.</p>
+</td>
+</tr>
+</table>
+</div> 
+
+<div class="content-table-div table-responsive">
+<table border="1">
+<tr>
+<th>Section</td>
+
+<th>Number of Questions</th>
+
+<th>Time Allotted</th>
+
+</tr>
+
+<tr>
+<td>English</td>
+
+<td>75 questions</td>
+
+<td>45 minutes</td>
+</tr>
+
+<tr>
+<td>Mathematics</td>
+
+<td>60 questions</td>
+
+<td>60 minutes</td>
+</tr>
+
+<tr>
+<td>Reading</td>
+
+<td>40 questions</td>
+
+<td>35 minutes</td>
+
+</tr>
+<tr>
+<td>Science</td>
+
+<td>40 questions</td>
+
+<td>35 minutes</td>
+
+</tr>
+<tr>
+<td>Writing (Optional)</td>
+
+<td>1 prompt</td>
+
+<td>30 minutes</td>
+</tr>
+</table>
+</div>
+
+
+
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        
+        <section id="ielts-content">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <div class="test-prep-inner-content about-ielts-content">
+            <div class="test-heading">
+            <h3>IELTS Exam Pattern</h3>
+            <img src="assets/images/line-dec.png" alt="">
+            </div>
+            
+
+
+<div class="content-table-div table-responsive">
+<table border="1">
+<tr>
+<th>Section</th>
+
+<th>Description</th>
+
+<th>Questions/Duration</th>
+</tr>
+
+<tr>
+<td>Listening</td>
+
+<td>It encompasses four recorded monologues and conversations</td>
+
+<td>4<br/>
+
+30 minutes
+</td>
+</tr>
+
+<tr>
+<td>Reading</td>
+
+<td>Three long reading passages with tasks. Texts range from descriptive and factual to discursive, and analytical includes non-verbal material like diagrams, graphs, and illustrations texts are authentic (taken from books, journals, and newspapers)</td>
+
+<td>40<br/>
+
+60 minutes</td>
+
+<tr>
+<td>Writing</td>
+
+<td>A writing task of at least 150 words where the candidate must summarize, describe or explain table, graph, chart or diagram, and another short essay task of at least 250 words</td>
+
+<td>2<br/>
+
+60 minutes</td>
+
+<tr>
+<td>Speaking</td>
+
+<td>The face-to-face interview includes short questions, speaking at length about a familiar topic, and a structured discussion</td>
+
+<td>3<br/>
+
+11 to 14 minutes</td>
+</tr>
+</table>
+
+</div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+<section id="toefl-content">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <div class="test-prep-inner-content about-toefl-content">
+            <div class="test-heading">
+            <h3>TOEFL Exam Pattern</h3>
+            <img src="assets/images/line-dec.png" alt="">
+            </div>
+            
+<p>The TOEFL test has 4 sections — Listening, Reading, Writing, and Speaking — plus a 5-minute, unscored Personal Video Statement.</p>
+
+<p>The total test takes about 1 ½ hours to complete, not including check in.</p>
+
+<div class="content-table-div table-responsive">
+<table border="1">
+<tr>
+<th>Section</th>
+
+<th>Time*</th>
+
+<th>Questions*</th>
+
+<th>Tasks</th>
+</tr>
+
+<tr>
+<td>Listening</td>
+
+<td>21–34 min.</td>
+
+<td>30–45</td>
+
+<td>Answer questions about conversations and talks in various settings</td>
+</tr>
+
+<tr>
+<td>Reading</td>
+
+<td>22–33 min.</td>
+
+<td>30–45</td>
+
+<td>Answer questions about short academic and non academic texts</td>
+
+<tr>
+<td>Writing</td>
+
+<td>24–30 min.</td>
+
+<td>15–19 questions and 2 tasks</td>
+
+<td>Build sentences and write responses for everyday and academic situations</td>
+
+</tr>
+
+<tr>
+<td>Speaking</td>
+
+<td>13 min.</td>
+
+<td>3 tasks with 19 responses</td>
+
+<td>Retell written and spoken input, and speak to a simulated interviewer</td>
+
+</tr>
+
+<tr>
+<td>Personal Video Statement</td>
+
+<td>5 min.</td>
+
+<td>2</td>
+
+<td>Answer questions about yourself and your opinions (not scored)</td>
+
+</tr>
+
+</table>
+
+</div>
+<p>* The time and number of questions are approximate and can vary due to the adaptive format of the test. The test you take may include some unscored questions — either in the Listening and Writing sections, or in the Reading section. These questions are for research purposes and don’t count toward your score.</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        
+        
+<section id="ap-content">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <div class="test-prep-inner-content about-ap-content">
+            <div class="test-heading">
+            <h3>AP Test Format</h3>
+            <img src="assets/images/line-dec.png" alt="">
+            </div>
+            
+<p>The <b>Advanced Placement Program</b> offers 34 courses and exams across mathematics, sciences, social sciences, arts and world language, but individual schools and test centers determine the subjects to be offered.<b> In India, 22 different AP exam courses are available for you to choose from.</b></p>
+
+<p>The Advanced Placement exams' duration can vary from 90 minutes to 200 minutes. It depends on the subject. The exam consists of multiple-choice questions (MCQs) and a free response section.</p>
+
+<p>The examination is offered in paper and pencil format.</p><br/>
+
+
+<h4><b>The AP exam is divided in two parts:</b></h4>
+
+<p>First part of the exam comprises multiple choice questions. Candidate has to choose the answer out of four or five options. There is no negative marking if the student chooses an incorrect answer or the question is unattempted.</p>
+
+<p>While the second part requires students to respond in long format. It can be an essay, a solution to a problem, a spoken response.</p>
+            </div>
+            </div>
+            </div>
+            </div>
+            </section>
+
+
+
+            <div id="call-to-action">
+                <div class="container">
+                    <div class="row">
+                        <!-- <p>Young people have been 'mis-sold' <em>path to success</em>, business leaders warn.</p> -->
+                        <p>Begin your journey on the path to excellence with us <em>path to success</em>.</p>
+                        <div class="accent-button">
+                            <a href="#">View Courses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+<!-- footer -->
+<p style="background-color: black;width: 100%;height: 1px;"></p>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <div class="educa-info">
+                <img src="company logo.jpeg"alt="logo" style="width: 150px;">
+                <div class="line-dec" style="background: none"></div>
+                <p> Call us today to receive more information on our services.</p>
+                <div class="text-button">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <div class="featured-links">
+                <h2>Featured Links</h2>
+                <div class="line-dec"></div>
+                <ul>
+                  <li><a href="https://www.aprioriconsultants.org/index.html#">Graduation</a></li>
+                  <li><a href="https://www.aprioriconsultants.org/index.html#">Admissions</a></li>
+                  <li><a href="https://www.aprioriconsultants.org/index.html#">International</a></li>
+                  <li><a href="https://www.aprioriconsultants.org/index.html#">FAQs</a></li>
+                </ul>
+                <ul>
+                  <li><a href="https://www.aprioriconsultants.org/index.html#">Courses</a></li>
+                  <li><a href="https://www.aprioriconsultants.org/index.html#">About Us</a></li>
+                  <li><a href="https://www.aprioriconsultants.org/index.html#">Bookstore</a></li>
+                  <li><a href="https://www.aprioriconsultants.org/index.html#">Alumni</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <div class="university-address">
+                <h2>Contact Details</h2>
+                <div class="line-dec"></div>
+                <ul>
+                  <li><img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt"" style="width: 20px;padding:2px;">303 A, Hemkunt Chambers,Nehru Place 110089</li>
+                  <li><img src="https://cdn.iconscout.com/icon/free/png-256/call-2021585-1709472.png" alt"" style="width: 20px;padding:2px;">+91 9717189650/ 659</li>
+                  <li><img src="https://static.vecteezy.com/system/resources/thumbnails/002/205/854/small/email-icon-free-vector.jpg" alt"" style="width: 22px;padding:2px;">info@aprioriconsultants.org</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-widget">
+              <div class="newsletters">
+                <h2>Newsletters</h2>
+                <div class="line-dec"></div>
+                <p>Subsrcibe to our newsletter for latest updates about our site for universe.</p>
+                <input type="text" class="email" name="s" placeholder="Email Address..." value="">
+                <div class="accent-button">
+                  <a href="https://www.aprioriconsultants.org/index.html#">Subscribe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright-menu">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="copyright-text">
+                    <p>@ Copyright 2021 APRIORI EDUCATION SERVICES. All Rights Reserved</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="menu">
+                    <ul>
+                      <li><a href="https://www.aprioriconsultants.org/index.html">Home</a></li>
+                      <li><a href="https://www.aprioriconsultants.org/index.html#">About Us</a></li>
+                      <li><a href="https://www.aprioriconsultants.org/admissions.html">Admissions</a></li>
+                      <li><a href="https://www.aprioriconsultants.org/test-preparation-undergrad.html">Test Prep</a></li>
+                      <li><a href="https://www.aprioriconsultants.org/contact-us.html">Contact Us</a></li>
+                                                <li><a href="https://www.aprioriconsultants.org/index.html#">Blog</a></li>													
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="https://www.aprioriconsultants.org/index.html#" class="go-top"><i class="fa fa-angle-up"></i></a>
+    </div>
+
+    <nav class="sidebar-menu slide-from-left">
+  <div class="nano">
+    <div class="content">
+      <nav class="responsive-menu">
+        <ul>
+              
+                  
+                  <li><a href="https://www.aprioriconsultants.org/index.html">Home</a></li>											
+                  <li><a href="https://www.aprioriconsultants.org/index.html#">About Us</a></li>
+                                        <li><a href="https://www.aprioriconsultants.org/admissions.html">Admissions</a></li>										
+                  <li><a href="https://www.aprioriconsultants.org/index.html#" class="has-submenu">Test Prep</a>
+                  <ul class="sub-menu">
+                  <li><a href="https://www.aprioriconsultants.org/test-preparation-undergrad.html">Undergrad</a></li>
+                  <li><a href="https://www.aprioriconsultants.org/test-preparation-postgrad.html">Postgrad</a></li>
+                    </ul>
+                  </li>		
+                                        <li><a href="https://www.aprioriconsultants.org/courses.html">Courses</a></li>											
+                  <li><a href="https://www.aprioriconsultants.org/contact-us.html">Contact Us</a></li>											
+                  <li><a href="https://www.aprioriconsultants.org/testimonials.html">Testimonials</a></li> 
+                                        <li><a href="https://www.aprioriconsultants.org/index.html#">Blog</a></li>											
+                  <li><a href="https://www.aprioriconsultants.org/index.html#search"><i class="fa fa-search"></i></a></li>
+              
+            </ul>
+      </nav>
+    </div>
+  </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+    
