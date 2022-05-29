@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="animate.css">
@@ -94,7 +95,7 @@
 }
 .card{
     border-radius: 1rem;
-    box-shadow: 0px -10px 0px rgb(49, 22, 225);
+    box-shadow: 0px -10px 0px #F5A425;;
 }
 @media(max-width:767px){
     .card{
@@ -138,7 +139,7 @@ img{
     font-size: 0.7rem;
 }
 a{
-    color: rgb(63, 21, 232);
+    color: #F5A425;;
     font-weight: bold;
 }
 
@@ -149,6 +150,63 @@ a{
     
   }
 }
+@media screen and (max-width: 1371px) {
+#navlogo{
+  position: relative;
+  left: -500px;
+}
+}
+@media screen and (max-width: 1204px) {
+#navlogo{
+  position: relative;
+  left: -400px;
+}
+}
+@media screen and (max-width: 1003px) {
+#navlogo{
+  position: relative;
+  left: -300px;
+}
+}
+@media screen and (max-width: 992px) {
+#navlogo{
+  position: relative;
+  left: 00px;
+}
+}
+@media screen and (max-width: 842px) {
+#navlogo{
+  position: relative;
+  left: -270px;
+}
+}
+@media screen and (max-width: 767px) {
+#navlogo{
+  position: relative;
+  left: 0px;
+}
+#apply{
+  margin: 2%;
+}
+}
+@media screen and (max-width: 609px) {
+#navlogo{
+  position: relative;
+  left: -170px;
+}
+}
+@media screen and (max-width: 543px) {
+#navlogo{
+  position: relative;
+  left: -120px;
+}
+}
+@media screen and (max-width: 438px) {
+#navlogo{
+  position: relative;
+  left: -90px;
+}
+}
     </style>
 
   </head>
@@ -158,14 +216,14 @@ a{
     <p style="height: 1px ; background-color: #777777; ; width: 100%; border-top: 5px solid #1c1c84;"> </p>                              
     <div style="display: flex;flex-direction: row;flex-wrap: wrap; justify-content: space-evenly;">
         <div>
-          <a href="./index.html"><img src="Apriori Logo.jpeg" alt=""  style="width: 200px;margin-top: 30%;border-radius: 0px !important; ">
+          <a href="./index.html"><img src="Apriori Logo.jpeg" alt="" id="navlogo" style="width: 200px;margin-top: 30%;border-radius: 0px !important;margin-left: 1%; ">
         </div></a>
         <div>
             <div id="topbar" style="display: flex;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: flex-end;">
                 <p style="margin-right:1%;font-family: 'Roboto', sans-serif; font-size: 13px;">+91 9717189650/ 659</p>
                <p style="height: 20px ; background-color: #777777;margin-right: 1% ; width: 1px;  font-size: 13px;"> </p>
                 <p style="margin-right:1%;font-family: 'Roboto', sans-serif;">  info@aprioriconsultants.org</p>
-                <p style="background-color: #1c1c84; color: WHITE;padding: 17px;position: relative;bottom: 20px; font-size: 13px; cursor: pointer;" >APPLY NOW</p>
+                <p style="background-color: #1c1c84; color: WHITE;padding: 17px;position: relative;bottom: 20px; font-size: 13px; cursor: pointer;" id="apply">APPLY NOW</p>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top: 20px;position: relative;bottom: 19px;">
         <div class="container-fluid">
@@ -176,36 +234,36 @@ a{
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="./index.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;margin: 5px;">HOME</a>
+                <a class="nav-link " aria-current="page" href="./index.html" style="font-size: 11px; font-family: 'Roboto', sans-serif !important;margin: 5px;">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" style="font-size: 11px; font-family: 'Roboto', sans-serif;margin: 5px;">ABOUT US </a>
+                <a class="nav-link" href="#" style="font-size: 11px; font-family: 'Roboto', sans-serif !important;margin: 5px;">ABOUT US </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="./Admissions.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;margin: 5px;">ADMISSIONS</a>
+                <a class="nav-link " href="./Admissions.html" style="font-size: 11px; font-family: 'Roboto', sans-serif !important;margin: 5px;">ADMISSIONS</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 11px; font-family: 'Roboto', sans-serif;margin: 5px;">
                   TEST PREP
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./UNDERGRAD.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;margin: 5px;">UNDER GRADUATE</a></li>
+                  <li><a class="dropdown-item" href="./UNDERGRAD.html" style="font-size: 11px; font-family: 'Roboto', sans-serif !important;margin: 5px;">UNDER GRADUATE</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="./POSTGRAD.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;margin: 5px;">POST GRADUATE</a></li>
-              
+                  <li><a class="dropdown-item" href="./POSTGRAD.html" style="font-size: 11px; font-family: 'Roboto', sans-serif !important;margin: 5px;">POST GRADUATE</a></li>
+               
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./COURSES.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;margin: 5px;">COURSES</a>
+                <a class="nav-link" href="./COURSES.html" style="font-size: 11px; font-family: 'Roboto', sans-serif !important;margin: 5px;">COURSES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="./CONTACTUS.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;margin: 5px;">CONTACT US</a>
+                <a class="nav-link " href="./CONTACTUS.html" style="font-size: 11px; font-family: 'Roboto', sans-serif !important;margin: 5px;">CONTACT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="./TESTIMONIALS.html" style="font-size: 11px; font-family: 'Roboto', sans-serif;margin: 5px;">TESTIMONIALS</a>
+                <a class="nav-link active" href="./TESTIMONIALS.html" style="font-size: 11px; font-family: 'Roboto', sans-serif !important;margin: 5px;">TESTIMONIALS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" style="font-size: 11px; font-family: 'Roboto', sans-serif;margin: 5px;">BLOG</a>
+                <a class="nav-link" href="#" style="font-size: 11px; font-family: 'Roboto', sans-serif !important;margin: 5px;">BLOG</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -539,7 +597,7 @@ a{
 
  
     <p style="background-color: black;width: 100%;height: 1px;"></p>
-    <footer>
+    <footer style="background-color:aliceblue;;">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -580,7 +638,7 @@ a{
                 <div class="line-dec"></div>
                 <ul>
                   <li><img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt"" style="width: 22px;padding:0px;margin-right: 2%;position: relative;top: -5px;">303 A, Hemkunt Chambers, Nehru Place 110089</li>
-                  <li><img src="https://cdn.iconscout.com/icon/free/png-256/call-2021585-1709472.png" alt"" style="width: 22px;padding:2px;margin-right: 2%;position: relative;top: -4px;left: -2px;">+91 9717189650/ 659</li>
+                  <li><img src="https://cdn.iconscout.com/icon/free/png-256/call-2021585-1709472.png" alt"" style="width: 22px;padding:2px;margin-right: 0%;">+91 9717189650<br>&nbsp &nbsp &nbsp +91 9717189659</li>
                   <li><img src="https://static.vecteezy.com/system/resources/thumbnails/002/205/854/small/email-icon-free-vector.jpg" alt"" style="width: 25px;padding:2px;margin-right: 0.01%;position: relative;top: -3px;left: -2px;">info@aprioriconsultants.org</li>
                 </ul>
               </div>
